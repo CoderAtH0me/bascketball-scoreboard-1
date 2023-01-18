@@ -17,6 +17,7 @@ div {
   margin: 15px auto;
   border: 2px solid black;
   background-image: url("https://media.giphy.com/media/ngzsBPRItJK5B4A5Ge/giphy.gif");
+  background-size: cover;
   box-shadow: 0px 0px 15px black;
 }
 @font-face {
