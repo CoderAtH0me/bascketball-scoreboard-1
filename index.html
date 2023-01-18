@@ -1,33 +1,37 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h3>HOME</h3>
-                <div class="score-box">
-                    <div class="actual-score" id="actual-home-score"></div>
-                </div>
-                <div class="btn-row">
-                    <button onclick="home1()">+1</button>
-                    <button onclick="home2()">+2</button>
-                    <button onclick="home3()">+3</button>
-                </div>
-            </div>
-            <button id="new-match-btn" onclick="reset()">NEW MATCH</button>
-            <div>
-                <h3>GUEST</h3>
-                <div class="score-box">
-                    <div class="actual-score" id="actual-guest-score"></div>
-                </div>
-                <div class="btn-row">
-                    <button onclick="guest1()">+1</button>
-                    <button onclick="guest2()">+2</button>
-                    <button onclick="guest3()">+3</button>
-                </div>
-            </div>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <div class="score-box">
+          <div class="actual-score" id="actual-home-score">0</div>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div class="btn-row">
+          <button onclick="home1()">+1</button>
+          <button onclick="home2()">+2</button>
+          <button onclick="home3()">+3</button>
+        </div>
+      </div>
+      <button id="new-match-btn" onclick="reset()">NEW MATCH</button>
+      <div>
+        <h3>GUEST</h3>
+        <div class="score-box">
+          <div class="actual-score" id="actual-guest-score">0</div>
+        </div>
+        <div class="btn-row">
+          <button onclick="guest1()">+1</button>
+          <button onclick="guest2()">+2</button>
+          <button onclick="guest3()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
